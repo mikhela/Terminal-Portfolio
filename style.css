@@ -1,11 +1,11 @@
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: #121212;
+    color: #e0e0e0;
     font-family: monospace;
     margin: 0;
     padding: 0;
 }
-a{text-decoration: none;}
+
 #terminal-container {
     width: 80%;
     height: 800px;
@@ -17,8 +17,11 @@ a{text-decoration: none;}
     overflow-x: hidden;
     padding: 30px;
     position: relative;
-     animation: draw-border 1s forwards;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background: black;
+    transition: 0.6s;
 }
+
 .line {
     position: absolute;
     background-color: #00ff00;
@@ -58,6 +61,7 @@ a{text-decoration: none;}
     left: 0;
     animation: expandHeight 2s 3s forwards;
 }
+
 @keyframes expandWidth {
     to {
         width: 100%;
@@ -72,23 +76,27 @@ a{text-decoration: none;}
     }
 }
 
-#ascii-art {
+#ascii-art, #man-art {
     white-space: pre;
     margin-bottom: 20px;
+    color: #00ff00;
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
 }
+
 #welcome-message {
     margin: 20px 0;
     padding: 10px;
+    color: #00ff00;
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
 }
+
 #main-content {
     width: 600px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
-#man-art {
-    white-space: pre;
-}
+
 #menu {
     position: relative;
     top: 40px;
@@ -98,22 +106,50 @@ a{text-decoration: none;}
     list-style-type: none;
     color: #e7e7e7b1;
     border: 1px dashed white;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
-#menu li {cursor: pointer;}
-.mail {display: none; font-size: 12px; margin-top: 5px; border: 1px dashed white; text-align: center;}
-.about {display: none;}
-#menu a{color: #e7e7e7b1;}
-#menu a:hover {color: #fff;}
+
 #menu li {
+    cursor: pointer;
     padding: 5px 0;
+    transition: color 0.3s, text-shadow 0.3s;
 }
+
+#menu li:hover {
+    color: #00ff00;
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}
+
+#menu a {
+    color: #e7e7e7b1;
+}
+
+#menu a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.mail, .about {
+    display: none;
+    font-size: 12px;
+    margin-top: 5px;
+    border: 1px dashed white;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.terminal--content {
+    opacity: 0;
+    transition: 1s;
+}
+
 #terminal {
     width: 100%;
+    color: #00ff00;
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
 }
 
-
-.terminal--content
-{
-    opacity: 0;
-    transition: .5s;
+a {
+    text-decoration: none;
 }

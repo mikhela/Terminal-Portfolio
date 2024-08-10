@@ -44,6 +44,7 @@ $(document).ready(function() {
                     document.querySelector(".terminal--content").style.opacity = 1;
                     document.getElementById("terminal-container").style.borderRadius = "12px";
                     document.getElementById("terminal-container").style.overflowY = "auto";
+                    document.getElementById("terminal").style.display = "block";
                 }
             });
         });

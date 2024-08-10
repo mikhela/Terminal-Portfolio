@@ -152,6 +152,7 @@ body {
     width: 100%;
     color: #00ff00;
     text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+    display: none;
 }
 
 a {

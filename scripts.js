@@ -19,8 +19,8 @@ $(function() {
             this.echo('<span style="color: lightblue;">JavaScript, React, HTML, CSS, jQuery, Git, GitHub, Bootstrap, and more...</span>', { raw: true });
         },
         contact: function() {
-            this.echo('<span style="color: purple;">Email: giorgi@example.com</span>', { raw: true });
-            this.echo('<span style="color: purple;">LinkedIn: linkedin.com/in/giorgiomanadze</span>', { raw: true });
+            this.echo('<span style="color: purple;">Email: omanadzOfficial@gmail.com</span>', { raw: true });
+            this.echo('<span style="color: purple;">Second Email: giksona151@gmail.com</span>', { raw: true });
         },
         clear: function() {
             this.clear();

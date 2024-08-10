@@ -171,10 +171,3 @@ a {
 }
 
 
-@media only screen and (max-width: 1440px)
-{
-    #terminal-container
-    {
-        height: 600px;
-    }
-}

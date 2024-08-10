@@ -8,8 +8,7 @@ $(function() {
             this.echo('<span style="color: green;">contact</span> - How to contact me', { raw: true });
         },
         about: function() {
-            this.echo('<span style="color: yellow;">Hi, I am Giorgi Omanadze, a React Front-End Engineer.</span>', { raw: true });
-            this.echo('<span style="color: yellow;">I am punctual and always complete tasks on time.</span>', { raw: true });
+            window.location.href = 'about/about.html';
         },
         projects: function() {
             this.echo('<span style="color: orange;">1. MoviesWeb - I developed a stunning movie site with React, leveraging Git and GitHub for version control and collaboration. By integrating an API key, the site dynamically fetches and displays movie data. Through iterative updates over a month, I enhanced its features and content, crafting a professional platform for movie aficionados.</span>', { raw: true });

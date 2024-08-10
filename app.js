@@ -43,6 +43,7 @@ $(document).ready(function() {
                     document.getElementById("terminal-container").style.border = "1px solid green";
                     document.querySelector(".terminal--content").style.opacity = 1;
                     document.getElementById("terminal-container").style.borderRadius = "12px";
+                    document.getElementById("terminal-container").style.overflowY = "auto";
                 }
             });
         });

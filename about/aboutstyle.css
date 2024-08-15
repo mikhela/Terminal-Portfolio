@@ -132,10 +132,17 @@ body{
     {
         height: 70vh;
     }
+    .about-me
+    {
+        width: 30%;
+        margin-top: 0px;
+        position: absolute;
+        left: 30px;
+        bottom: 30px;
+    }
     .about-me p
     {
-        font-size: 18px;
-        text-align: center;
+        font-size: 10px;
     }
     .about-me #name
     {
@@ -150,17 +157,21 @@ body{
     .skills ul
     {
         gap: 20px;
-        width: 80%;
-        margin: auto;
+        width: 30%;
+        flex-wrap:wrap;
+        position: absolute;
+        right: 40px;
     }
     .skills ul #img
     {
-        width: 30px !important; 
+        width: 22px !important; 
     }
     .skills ul li
     {
-        font-size: 30px;
+        font-size: 20px;
     }
+
+   
 }
 
 
@@ -171,17 +182,25 @@ body{
     {
         width: 80%;
         flex-wrap: wrap;
+        position: absolute;
+        bottom: 0px;
     }
     
     .about-me
     {
-        width: 100%;
-        margin-top: 50px;
+        width: 80%;
+        overflow: auto;
+        margin-top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+        border: 2px dashed white;
+        padding: 6px;
     }
     .about-me p
     {
         width: 100%;
-        font-size: 12px;
+        font-size: 11px;
         color: white;
     }
     .image--container h2

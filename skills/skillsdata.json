@@ -1,0 +1,48 @@
+{
+    "skills": [
+      {
+        "name": "HTML5 & CSS3",
+        "description": "Proficient in building responsive layouts, using modern CSS techniques like Flexbox and Grid, and implementing animations."
+      },
+      {
+        "name": "JavaScript (ES6+)",
+        "description": "Strong understanding of JavaScript fundamentals, including DOM manipulation, event handling, and asynchronous programming."
+      },
+      {
+        "name": "React.js",
+        "description": "Experienced in building dynamic single-page applications with React, utilizing hooks, state management, and component-based architecture."
+      },
+      {
+        "name": "Version Control (Git)",
+        "description": "Comfortable using Git for version control, collaborating with teams, and managing project repositories."
+      },
+      {
+        "name": "Responsive Design",
+        "description": "Skilled in creating layouts that work across different devices and screen sizes, ensuring a consistent user experience."
+      },
+      {
+        "name": "UI/UX Design Principles",
+        "description": "Understanding of design principles, color theory, and typography to create visually appealing interfaces."
+      },
+      {
+        "name": "jQuery",
+        "description": "Experienced in using jQuery to simplify DOM manipulation, event handling, and AJAX requests."
+      },
+      {
+        "name": "Bootstrap",
+        "description": "Proficient in using Bootstrap for responsive design and rapid UI development."
+      },
+      {
+        "name": "C#",
+        "description": "Knowledgeable in C# programming for developing applications and understanding object-oriented principles."
+      },
+      {
+        "name": "ASP.NET",
+        "description": "Experience with ASP.NET for building dynamic web applications and understanding server-side programming."
+      },
+      {
+        "name": "SQL",
+        "description": "Proficient in SQL for database management, including writing queries and managing data."
+      }
+    ]
+  }

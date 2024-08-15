@@ -1,0 +1,194 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+body{
+    background-color: #121212;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust alpha (opacity) here */
+    width: 60%;
+    height: 75vh;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: -1px 3px 25px 14px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 25px 14px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 25px 14px rgba(0,0,0,0.75);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    overflow: hidden;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/avatar.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+    border-radius: 12px;
+}
+
+
+
+.image--container
+{
+    width: 100%;
+}
+.image--container h2
+{
+    font-size: 40px;
+    color: orange;
+}
+.image--inner--container
+{
+    width: 25%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+.image--inner--container a
+{
+    font-size: 32px;
+    color: orange;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 10px;
+}
+.image--container .image--inner--container img
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.about-me
+{
+    width: 100%;
+    margin-top: 60px;
+}
+.about-me #name
+{
+    position: relative;
+    left: 40px;
+    color: orange;
+}
+.about-me p
+{
+    width: 100%;
+    font-size: 24px;
+    color: white;
+}
+
+.skills
+{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.skills ul
+{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.skills ul li
+{
+    list-style-type: none;
+    font-size: 40px;
+    color: white;
+}
+@media only screen and (max-width: 1920px)
+{
+    .container
+    {
+        height: 67vh;
+    }
+}
+@media only screen and (max-width: 1440px)
+{
+    .container
+    {
+        height: 70vh;
+    }
+    .about-me p
+    {
+        font-size: 18px;
+        text-align: center;
+    }
+    .about-me #name
+    {
+        left: 0px;
+    }
+    .about-me #about-description
+    {
+        position: relative;
+        top: 10px;
+    }
+
+    .skills ul
+    {
+        gap: 20px;
+        width: 80%;
+        margin: auto;
+    }
+    .skills ul #img
+    {
+        width: 30px !important; 
+    }
+    .skills ul li
+    {
+        font-size: 30px;
+    }
+}
+
+
+
+@media only screen and (max-width: 980px)
+{
+    .skills ul
+    {
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    
+    .about-me
+    {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .about-me p
+    {
+        width: 100%;
+        font-size: 12px;
+        color: white;
+    }
+    .image--container h2
+    {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 520px){ .skills ul #img { width: 14px !important; } .skills ul li{font-size: 12px;}}

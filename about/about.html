@@ -1,14 +1,42 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="about.css">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="aboutstyle.css">
 </head>
 <body>
-    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.6/build/spline-viewer.js"></script>
-<spline-viewer loading-anim-type="spinner-big-dark" url="https://prod.spline.design/C-3WRUrbR8-urP43/scene.splinecode"></spline-viewer>
+    <div class="container">
+        <div class="image--container">
+            <h2>About Me</h2>
+            <div class="image--inner--container">
+                <img src="../images/avatar.jpeg" alt=""><br>
+                <a href="https://github.com/mikhela"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="about-me">
+            <p id="name">Giorgi Omanadze</p>
+            <p id="about-description"></p>
+        </div>
+        <div class="skills" >
+            <ul>
+                <li><i class="fa-brands fa-html5"></i></li>
+                <li><i class="fa-brands fa-css3-alt"></i></li>
+                <li><i class="fa-brands fa-js"></i></li>
+                <li><i class="fa-brands fa-react"></i></li>
+                <li><i class="fa-brands fa-git"></i></li>
+                <li><i class="fa-brands fa-github"></i></li>
+                <li><i class="fa-brands fa-bootstrap"></i></li>
+                <li><i class="fa-brands fa-sass"></i></li>
+                <li><i class="fa-solid fa-font-awesome"></i></li>
+                <li><i class="fa-solid fa-database"></i></li>
+                <li><img style="width: 42px;" id="img" src="../images/postman.png" alt=""></li>
+
+            </ul>
+        </div>
+    </div>
+    <script src="aboutme.js"></script>
 </body>
 </html>

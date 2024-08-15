@@ -11,11 +11,12 @@ $(function() {
             window.location.href = 'about/about.html';
         },
         projects: function() {
+            window.location.href = 'projects/projects.html'
             this.echo('<span style="color: orange;">1. MoviesWeb - I developed a stunning movie site with React, leveraging Git and GitHub for version control and collaboration. By integrating an API key, the site dynamically fetches and displays movie data. Through iterative updates over a month, I enhanced its features and content, crafting a professional platform for movie aficionados.</span>', { raw: true });
             this.echo('<span style="color: orange;">2. BurgerKingClone - I made this project for fun when I was studying: HTML, CSS, JS</span>', { raw: true });
         },
         skills: function() {
-            this.echo('<span style="color: lightblue;">JavaScript, React, HTML, CSS, jQuery, Git, GitHub, Bootstrap, and more...</span>', { raw: true });
+            window.location.href = 'skills/skillspage.html'
         },
         contact: function() {
             this.echo('<span style="color: purple;">Email: omanadzOfficial@gmail.com</span>', { raw: true });
@@ -25,7 +26,7 @@ $(function() {
             this.clear();
         }
     }, {
-        greetings: '<span style="color: lime;">Welcome to my portfolio! Type "help" to see available commands.</span>',
+        greetings: '<span style="color: orange;">Welcome to my portfolio! Type "help" to see available commands.</span>',
         prompt: 'visitor@omanadze.com:~$ ',
         raw: true
     });

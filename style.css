@@ -12,8 +12,8 @@ body {
 }
 
 #terminal-container {
-    width: 80%;
-    height: 80vh;
+    width: 60%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -28,7 +28,7 @@ body {
 
 .line {
     position: absolute;
-    background-color: #00ff00;
+    background-color: green;
     opacity: 0;
 }
 
@@ -79,11 +79,14 @@ body {
         opacity: 1;
     }
 }
-
+#man-art
+{
+    width: 50%;
+}
 #ascii-art, #man-art {
     white-space: pre;
     margin-bottom: 20px;
-    color: #00ff00;
+    color: green;
     text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
     font-size: 16px;
 }
@@ -97,12 +100,12 @@ body {
 #welcome-message {
     margin: 20px 0;
     padding: 10px;
-    color: #00ff00;
+    color: orange;
     text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
 }
 
 #main-content {
-    width: 600px;
+    width: 80%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -156,10 +159,12 @@ body {
 }
 
 #terminal {
-    width: 100%;
+    width: 50%;
     color: #00ff00;
     text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
     display: none;
+    margin-top: 50px;
+    padding: 5px;
 }
 
 

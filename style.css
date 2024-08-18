@@ -88,14 +88,10 @@ body {
     margin-bottom: 20px;
     color: green;
     text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
-    font-size: 16px;
+    font-size: 12px;
 }
-@media only screen and (max-width: 1440px)
-{
-    #ascii-art, #man-art {
-        font-size: 10px;
-    }
-}
+
+
 
 #welcome-message {
     margin: 20px 0;
@@ -172,16 +168,19 @@ a {
     text-decoration: none;
 }
 
-#message
+
+
+
+@media only screen and (max-width: 1440px)
+{#ascii-art {font-size: 8px;}}
+
+@media only screen and (max-width: 1080px)
 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s;
-    opacity: 0;
-    display: block;
-    font-size: 40px;
+    #main-content {
+        width: 80%;
+        display: block;
+    }
+    #terminal {
+        width: 80%;
+    }
 }
-
-

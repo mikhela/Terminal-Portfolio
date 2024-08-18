@@ -1,36 +1,6 @@
 $(document).ready(function() {
 
 
-    // Toggle about section
-    $('#aboutBtn').on('click', function() {
-        let aboutDiv = $('.about');
-        if (aboutDiv.is(':hidden')) {
-            aboutDiv.html(`
-                <ul>
-                    <li>Name: Giorgi</li>
-                    <li>Surname: Omanadze</li>
-                    <li>Live: Tbilisi</li>
-                </ul>
-            `).slideDown();
-            $(this).text('About');
-        } else {
-            aboutDiv.slideUp();
-            $(this).text('About');
-        }
-    });
-
-    // Toggle mail section
-    $('#mailbtn').on('click', function() {
-        let maildiv = $('.mail');
-        if (maildiv.is(':hidden')) {
-            maildiv.html(`
-                <li>omanadzOfficial@gmail.com</li>
-            `).slideDown();
-        } else {
-            maildiv.slideUp();
-        }
-    });
-
     // Terminal border animations
        function borderAnimationFunction()
        {

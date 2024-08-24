@@ -11,8 +11,7 @@ $(function() {
             window.location.href = 'about/about.html';
         },
         projects: function() {
-            this.echo('<span style="color: orange;">1. MoviesWeb - I developed a stunning movie site with React, leveraging Git and GitHub for version control and collaboration. By integrating an API key, the site dynamically fetches and displays movie data. Through iterative updates over a month, I enhanced its features and content, crafting a professional platform for movie aficionados.</span>', { raw: true });
-            this.echo('<span style="color: orange;">2. BurgerKingClone - I made this project for fun when I was studying: HTML, CSS, JS</span>', { raw: true });
+            this.echo('<span style="color: orange;">1. <a href="https://omanamovie.netlify.app/">MoviesWeb</a> - I developed a stunning movie site with React, leveraging Git and GitHub for version control and collaboration. By integrating an API key, the site dynamically fetches and displays movie data. Through iterative updates over a month, I enhanced its features and content, crafting a professional platform for movie aficionados.</span>', { raw: true });
         },
         skills: function() {
             window.location.href = 'skills/skillspage.html'
